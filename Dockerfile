@@ -1,4 +1,4 @@
-FROM node:11
+FROM node:14.15.5
 WORKDIR /dist
 COPY package.json /dist
 RUN npm install
