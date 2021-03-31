@@ -21,7 +21,7 @@ ___
 - [ ] Submit a Pull Request to cis411_lab4_CD and provide the URL of that ull Request in Canvas as your URL submission.
 
 ## Questions
-1. Why would a containerized version of an application be beneficial if you can run the application locally already?
+1. Why would a (DELETE) containerized version of an application be beneficial if you can run the application locally already?
 > Respond here...
 2. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
 > Respond here...
