@@ -5,7 +5,7 @@ ___
 **Name:** Alec Chappell  
 **GitHub Handle:** [@alecclyde](https://github.com/alecclyde)  
 **Repository:** [Alecclyde's forked repository](https://github.com/alecclyde/cis411_lab4_CD)
-**Collaborators:** 
+**Collaborators:** [@ArturD0nnelly](https://github.com/ArturD0nnelly)
 ___
 
 # Required Content
