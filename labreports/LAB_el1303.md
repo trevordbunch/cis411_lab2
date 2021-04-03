@@ -4,7 +4,7 @@ ___
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Emily Lopez
 **GitHub Handle:** el1303  
-**Repository:** Your Forked Repository  
+**Repository:** el1303/cis411_lab4_cd 
 **Collaborators:** @RomanSearle @JoeV22
 ___
 
@@ -16,7 +16,7 @@ ___
 - [x] Write the URL of your running Heroku app here:  
 > el1303 URL: [https://cis411lab4el1303.herokuapp.com/graphql/](https://cis411lab4el1303.herokuapp.com/graphql/)
 - [X] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project.  
-> Heroku: ![Successful Build](../assets/Heroku%20ScreenShot.png)
+> Heroku: ![Successful Build](../assets/Screen%20Shot%202021-04-03%20at%205.04.49%20PM.png)
 - [x] Answer the **4** questions below.
 - [X] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
 
