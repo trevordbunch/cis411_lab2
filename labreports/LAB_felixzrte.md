@@ -4,13 +4,13 @@ ___
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Felix Zarate  
 **GitHub Handle:** felixzrte  
-**Repository:**  
+**Repository:** https://github.com/felixzrte/cis411_lab4_CD
 **Collaborators:** 
 ___
 
 # Required Content
 
-- [ ] Generate a markdown file in the labreports directoy named LAB_[GITHUB HANDLE].md. Write your lab report there.
+- [x] Generate a markdown file in the labreports directoy named LAB_[GITHUB HANDLE].md. Write your lab report there.
 - [ ] Create the directory ```./circleci``` and the file ```.circleci/config.yml``` in your project and push that change to your GitHub repository.
 - [ ] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
 - [ ] Write the URL of your running Heroku app here:  
