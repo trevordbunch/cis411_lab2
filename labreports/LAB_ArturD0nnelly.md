@@ -14,7 +14,7 @@ ___
 - [x] Create the directory ```./circleci``` and the file ```.circleci/config.yml``` in your project and push that change to your GitHub repository.
 - [x] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
 - [x] Write the URL of your running Heroku app here:  
-> Example: [https://cis411lab4-happyartur.herokuapp.com/graphql](https://cis411lab4-happyartur.herokuapp.com/graphql)
+> [https://cis411lab4-happyartur.herokuapp.com/graphql](https://cis411lab4-happyartur.herokuapp.com/graphql)
 - [x] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project.  
 > Example: ![Successful Build](../assets/markdown.png)
 - [x] Answer the **4** questions below.
