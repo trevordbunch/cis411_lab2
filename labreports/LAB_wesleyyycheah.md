@@ -26,11 +26,11 @@ ___
 - [x] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
 
 ## Questions
-1. Why would a containerized version of an application be beneficial if you can run the application locally already?
-> I can think of two benefits of running an app on a container over running it locally. The first one and most obvious one is that it requires less hardware and system resources to run the app as it is done on the cloud. The second one is that it has increased portability. Running an app on the cloud makes it easier for deployments on different operating systems or hardware platforms. 
-2. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
-> CircleCI can help developers by being able to be configured to run multiple, complex, pipelines efficiently and with sophisticated caching, docker layer caching, and resource classes for running on faster machines. There are multiple other benefits like running jobs faster with propere configurations in the config.yml file. CircleCI basically makes development faster and more efficient than publishing directly to Heroku,
-3. Why would you use a container technology over a virtual machine(VM)?
-> Because container technology doesn't require as much resources. Multiple containers can be run on a single virtualized operating system while virtual machines have virtualized hardware to run multiple operating systems, thus using up more power and resources. 
-4. What are some alternatives to Docker for containerized deployments?
-> There are other alternatives to Docker like LXC, rkt, Kubernetes, and Cloud Foundry.
+1. Why would a containerized version of an application be beneficial if you can run the application locally already? </br> </br>
+I can think of two benefits of running an app on a container over running it locally. The first one and most obvious one is that it requires less hardware and system resources to run the app as it is done on the cloud. The second one is that it has increased portability. Running an app on the cloud makes it easier for deployments on different operating systems or hardware platforms. </br></br>
+2. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?</br></br>
+CircleCI can help developers by being able to be configured to run multiple, complex, pipelines efficiently and with sophisticated caching, docker layer caching, and resource classes for running on faster machines. There are multiple other benefits like running jobs faster with propere configurations in the config.yml file. CircleCI basically makes development faster and more efficient than publishing directly to Heroku.</br></br>
+3. Why would you use a container technology over a virtual machine(VM)?</br></br>
+Because container technology doesn't require as much resources. Multiple containers can be run on a single virtualized operating system while virtual machines have virtualized hardware to run multiple operating systems, thus using up more power and resources. </br></br>
+4. What are some alternatives to Docker for containerized deployments?</br></br>
+There are other alternatives to Docker like LXC, rkt, Kubernetes, and Cloud Foundry.
