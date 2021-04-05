@@ -21,10 +21,10 @@ ___
 
 ## Questions
 1. Why would a containerized version of an application be beneficial if you can run the application locally already?
-> Respond here...
+> 
 2. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
-> Respond here...
+> 
 3. Why would you use a container technology over a virtual machine(VM)?
-> Respond here...
+> 
 4. What are some alternatives to Docker for containerized deployments?
-> Respond here...
+> 
