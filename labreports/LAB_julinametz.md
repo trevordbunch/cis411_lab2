@@ -1,11 +1,10 @@
-# Lab Report: UX/UI
+# Lab Report: CD
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
-**Collaborators:** 
+**Name:** Julina Metz  
+**GitHub Handle:** julinametz  
+**Repository:** https://github.com/julinametz/cis411_lab4_CD  
 ___
 
 # Required Content
