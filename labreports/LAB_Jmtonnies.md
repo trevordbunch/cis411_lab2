@@ -2,10 +2,10 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Joseph TOnnies  
+**Name:** Joseph Tonnies  
 **GitHub Handle:** Jmtonnies  
-**Repository:** Your Forked Repository  
-**Collaborators:** 
+**Repository:** https://github.com/Jmtonnies/cis411_lab4_CD
+**Collaborators:** alecclyde
 ___
 
 # Required Content
