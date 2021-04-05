@@ -20,7 +20,7 @@ ___
 
 - [x] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project.
 
-> Example: ![Successful Build](/assets/success.png)
+> Example: ![Successful Build](/assets/build_success.png)
 
 - [x] Answer the **4** questions below.
 - [x] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
