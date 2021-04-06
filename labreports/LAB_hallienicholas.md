@@ -12,6 +12,7 @@ ___
 
 - [x] Generate a markdown file in the labreports directoy named LAB_[GITHUB HANDLE].md. Write your lab report there.
 - [x] Create the directory ```./circleci``` and the file ```.circleci/config.yml``` in your project and push that change to your GitHub repository.
+  ![Build Verification](Documents/../../assets/circleci_yml.png)
 - [x] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
 - [x] Write the URL of your running Heroku app here:  
 [http://cis411lab4-hallienicholas.herokuapp.com/graphql](http://cis411lab4-hallienicholas.herokuapp.com/graphql)
