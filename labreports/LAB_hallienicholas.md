@@ -5,7 +5,7 @@ ___
 **Name:** Hallie Nicholas  
 **GitHub Handle:** hallienicholas  
 **Repository:** [My Forked Repository](https://github.com/hallienicholas/cis411_lab4_CD.git)  
-**Collaborators:** 
+**Collaborators:** @isaacparada
 ___
 
 # Required Content
