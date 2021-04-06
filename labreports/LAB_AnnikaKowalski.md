@@ -17,7 +17,7 @@ ___
     - My URL: https://cis411lab4annikakowalski.herokuapp.com/graphql/
 
 - [ ] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project.  
-> Example: ![GraphiQL_SC](/assets/GraphiQL_SC.png)
+    - Here is my screenshot  ![GraphiQL_SC](/assets/GraphiQL_SC.png)
     
 - [ ] Answer the **4** questions below.
 - [ ] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
