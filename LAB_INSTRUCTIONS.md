@@ -228,9 +228,16 @@ mutation {
 # Step 6: Reflection / Feedback
 Answer the following 4 questions in your [Lab Report](/labreports/LAB_Template.md): 
 1. Why would a containerized version of an application be beneficial if you can run the application locally already?
-2. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
-3. Why would you use a container technology over a virtual machine(VM)?
-4. What are some alternatives to Docker for containerized deployments?
 
+Sometime's it's important to be able to deploy it inside a container in order to run specific tests on it.
+
+2. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
+Most of our build configurations are within the yml file. So if you need to edit it and do variations. One of the things that makes it stand out is it's speed, this helps us run complex pipelines faster than heroku.
+
+3. Why would you use a container technology over a virtual machine(VM)?
+Containters are much faster and agile than virtual machine proving to handle complex tasks with ease, outpacing virtual machines.
+
+4. What are some alternatives to Docker for containerized deployments?
+Windows container, linuxV server and LXD are all viable containerized deployment alternatives to docker.
 # Step 7: Submit your work
 Complete a pull request to the source repository and use the PR URL to submit your assignment in canvas.
