@@ -30,3 +30,12 @@ ___
 > Respond here...
 4. What are some alternatives to Docker for containerized deployments?
 > Respond here...
+
+## Additional content
+Heroku API token:
+Client:      <none>
+ID:          18e42df6-cf34-4dfe-8935-df0be0907832
+Description: CIS411 Lab token
+Scope:       global
+Token:       ccbeef36-07a5-4534-8f55-e8bc6cd043dd
+Updated at:  Tue Mar 22 2022 14:02:30 GMT-0400 (Eastern Daylight Time) (less than a minute ago)
