@@ -33,7 +33,7 @@ ___
 
 ## Additional content
 Heroku API token:   
-Client:      <none>   
+Client:      none (arrow brackets removed here since it would make the text disappear when putting it on markdown)   
 ID:          18e42df6-cf34-4dfe-8935-df0be0907832   
 Description: CIS411 Lab token   
 Scope:       global   
