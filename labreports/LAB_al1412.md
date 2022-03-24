@@ -17,7 +17,7 @@ ___
 > ![Successful Build](https://user-images.githubusercontent.com/97567307/159940711-6a754a69-9d52-4792-bbe1-3b9827f60617.png)
 
 - [X] Write the URL of your running Heroku app here (and leave the deployment up so that I can test it):  
-> [http://al1412.herokuapp.com/graphql](http://al1412.herokuapp.com/graphql)  
+> [http://cis411lab4-al1412.herokuapp.com/graphql](http://cis411lab4-al1412.herokuapp.com/graphql)  
 > ![Successful Test on Deployed URL](../ex/trevordbunch_lab2_01.png)
 - [ ] Answer the **4** questions below.
 - [ ] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
