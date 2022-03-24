@@ -24,7 +24,7 @@ ___
 
 ## Questions
 1. Why would a containerized version of an application be beneficial if you can run the application locally already?
-> Respond here...
+> Even though an application can be run locally already, a containerized version improves an application's efficiency by using all available resources and minimizes overhead (the amount of time and resources needed to complete a specific task). If a containerized version is properly configured, then it can take advantage of pretty much all available resources and deployment of an application can be done through a single command in a terminal.
 2. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
 > Respond here...
 3. Why would you use a container technology over a virtual machine(VM)?
