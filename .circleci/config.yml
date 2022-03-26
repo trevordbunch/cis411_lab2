@@ -13,7 +13,7 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: yarn install
+
 
       - save_cache:
           paths:
@@ -22,4 +22,3 @@ jobs:
         
       # run tests!
       - run: yarn test
-      
