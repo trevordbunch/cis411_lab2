@@ -18,15 +18,15 @@ ___
 - [x] Write the URL of your running Heroku app here (and leave the deployment up so that I can test it):  
 > [https://cis411lab4-reidburger.herokuapp.com/graphql](https://cis411lab4-reidburger.herokuapp.com/graphql)  
 > ![Successful Test on Deployed URL](../ex/trevordbunch_lab2_01.png)
-- [ ] Answer the **4** questions below.
-- [ ] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
+- [x] Answer the **4** questions below.
+- [x] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
 
 ## Questions
 1. Why would a containerized version of an application be beneficial if you can run the application locally already?
-> Respond here...
+> Having a containerized version of an app is useful because it allows you to separate the infrastructure from the app, meaning that you can deploy code much faster and safer. Also, having a containerized environment ensures that all members of a dev team are working in the same environment regardless of the host.
 2. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
-> Respond here...
+> CircleCI provides the ability to make sure changes are valid and that the environment can actually be properly run and deployed. Without it, we might miss some critical errors that might otherwise be looked over or avoided by bypassing it and going straight to Heroku.
 3. Why would you use a container technology over a virtual machine(VM)?
-> Respond here...
+> Container technology uses less resources than virtual machine technology, and it's overall more efficient and consistent across different hosts.
 4. What are some alternatives to Docker for containerized deployments?
-> Respond here...
+> From my 15 minutes of research, the only alternative I've found to Docker is Kubernetes, though CircleCI keeps coming up as an option as well even though I no it's not a container deployment service.
