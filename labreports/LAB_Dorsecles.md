@@ -22,6 +22,8 @@ ___
 - [ ] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
 
 ![Successful Build](../assets/SuccessfulBuild.jpg)
+
+![Successful Heroku Build](../assets/SuccessfulHerokuBuild.jpg)
 ## Questions
 1. Why would a containerized version of an application be beneficial if you can run the application locally already?
 > Respond here...
