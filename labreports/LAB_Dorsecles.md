@@ -18,18 +18,18 @@ ___
 - [X] Write the URL of your running Heroku app here (and leave the deployment up so that I can test it):  https://cis411lab4-dorsecles.herokuapp.com/graphql
 > Example: [http://cis411lab2-trevordbunch.herokuapp.com/graphql](http://cis411lab2-trevordbunch.herokuapp.com/graphql)  
 > ![Successful Test on Deployed URL](../ex/trevordbunch_lab2_01.png)
-- [ ] Answer the **4** questions below.
-- [ ] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
+- [X] Answer the **4** questions below.
+- [X] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
 
 ![Successful Build](../assets/SuccessfulBuild.jpg)
 
 ![Successful Heroku Build](../assets/SuccessfulHerokuBuild.jpg)
 ## Questions
 1. Why would a containerized version of an application be beneficial if you can run the application locally already?
-> Respond here...
-2. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
-> Respond here...
+> It makes it easier to run tests so the developer does not have to do it manually.
+1. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
+> It helps to make things go a little faster and easier.
 3. Why would you use a container technology over a virtual machine(VM)?
-> Respond here...
+> Conatiners are smaller and more efficient because they work fast.
 4. What are some alternatives to Docker for containerized deployments?
-> Respond here...
+> Hyper-V, Windows Containers, and Artifactory Docker Registry.
