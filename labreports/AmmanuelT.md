@@ -23,10 +23,10 @@ ___
 
 ## Questions
 1. Why would a containerized version of an application be beneficial if you can run the application locally already?
-> Having a containerized version of an application makes it so that everyone working on the application can run it in a similar environment. This way we know that there won't be problems with the app due to the way that a persons local environment is configured.
-1. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
+> Having a containerized version of an application makes it so that everyone working on the application can run it in a similar environment. This way we know that there won't be problems with the app due to the way that a person's local environment is configured.
+2. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
 > Involving a CI solution like Circle CI allows us to run scripts before deploying directly to Heroku. Having this option means that test scripts can be run before deploying so that resources are not wasted. In addition, Circle CI allows us to have complex pipelines involving different technologies.
-1. Why would you use a container technology over a virtual machine(VM)?
-> VMs run their own complete operating system while containers run on the existing operating system's kernel which means that they take up less space. In addition a system can host many containers when needed as they require less ressources. Finally the capacity to start and stop containers easily makes it easier to conserve ressources.
-1. What are some alternatives to Docker for containerized deployments?
-> Kubernetes, Red Hat OpenShift and Cloud Foundry are popular alternatives to Docker for containerized deployments.
+3. Why would you use a container technology over a virtual machine(VM)?
+> VMs run their own complete operating system while containers run on the existing operating system's kernel which means that they take up less space. In addition, a system can host many containers when needed as they require fewer resources. Finally, the capacity to start and stop containers easily makes it easier to conserve resources.
+4. What are some alternatives to Docker for containerized deployments?
+> Kubernetes, Red Hat OpenShift, and Cloud Foundry are popular alternatives to Docker for containerized deployments.
