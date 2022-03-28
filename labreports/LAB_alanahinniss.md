@@ -4,7 +4,7 @@ ___
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Alanah Inniss 
 **GitHub Handle:** alanahinniss  
-**Repository:** Your Forked Repository  
+**Repository:** https://github.com/alanahinniss/cis411_lab4_CD2.git  
 **Collaborators:** Gloria Houngbeke, Issac Ho, Ammanuel Tamrat, Azianna Yang
 ___
 
@@ -21,15 +21,19 @@ ___
 
 > ![Successful Test on Deployed URL](../assets/Screen%20Shot%202022-03-28%20at%201.20.45%20AM.png)
 > 
-- [ ] Answer the **4** questions below.
-- [ ] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
+- [x] Answer the **4** questions below.
+- [x] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
 
 ## Questions
 1. Why would a containerized version of an application be beneficial if you can run the application locally already?
-> Respond here...
+It is useful to have a containerized verzion one because it will simpler to run and it is faster. It will aslo allow members of the project to the application without the process of downloading other programs. 
+
 2. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
-> Respond here...
+Using a CI solution along with Heroku is beneificial beacuse when publishing to Herokuo, the code should always be tested first and on a regular basis. Therfore, if the code is not deployable, the program will tell us and the errors can be fixed. 
+
 3. Why would you use a container technology over a virtual machine(VM)?
-> Respond here...
+VMs take a lot longer to set up than container technology because it requires less resources. Also, a container provides a portable due to the feature of packaging everything needed to run.
+
 4. What are some alternatives to Docker for containerized deployments?
-> Respond here...
+- OpenVZ
+- Podman
