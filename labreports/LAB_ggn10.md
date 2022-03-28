@@ -16,7 +16,7 @@ ___
 - [x] Write the URL of your running Heroku app here:  
 ![http://cis411lab4-ggn10.herokuapp.com/graphql](https://cis411lab4-ggn10.herokuapp.com/)
 - [x] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project.  
-![Successful Build](../assets/ggn10_ciSS.PNG)
+![Successful Build](../assets/ggn10ciSS.PNG)
 - [x] Answer the **4** questions below.
 - [x] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
 
