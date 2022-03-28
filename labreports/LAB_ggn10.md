@@ -18,14 +18,14 @@ ___
 - [x] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project.  
 ![Successful Build](../assets/ggn10_ciSS.PNG)
 - [x] Answer the **4** questions below.
-- [ ] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
+- [x] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
 
 ## Questions
 1. Why would a containerized version of an application be beneficial if you can run the application locally already?
-> Respond here...
+> Containerized versions of applications allow for great efficiency, fast delivery, and fast management.
 2. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
-> Respond here...
+> CircleCI allows us to continuously see how are app is being built and deployed. This will make troubleshooting and new commits easier.
 3. Why would you use a container technology over a virtual machine(VM)?
-> Respond here...
+> Container technology does not require a virtualized OS or a Hypervisor layer.
 4. What are some alternatives to Docker for containerized deployments?
-> Respond here...
+> Kubernetes.
