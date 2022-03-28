@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:  
     docker:
-      - image: circleci/node:16
+      - image: circleci/node:12
     steps:
       - checkout
       
@@ -22,7 +22,7 @@ jobs:
         
       # run tests!
       - run: yarn test
-      
+
   deploy:
     docker:
       - image: buildpack-deps:trusty
