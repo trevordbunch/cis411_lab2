@@ -15,7 +15,7 @@ ___
 - [ ] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
 - [ ] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project (with the circleci interface).  
 > Example: ![Successful Build](../ex/trevordbunch_lab2_02.png)
-- [ ] Write the URL of your running Heroku app here (and leave the deployment up so that I can test it):  
+- [ ] Write the URL of your running Heroku app here (and leave the deployment up so that I can test it): https://cis411lab4-crobson9000.herokuapp.com/graphql  
 > Example: [http://cis411lab2-trevordbunch.herokuapp.com/graphql](http://cis411lab2-trevordbunch.herokuapp.com/graphql)  
 > ![Successful Test on Deployed URL](../ex/trevordbunch_lab2_01.png)
 - [ ] Answer the **4** questions below.
