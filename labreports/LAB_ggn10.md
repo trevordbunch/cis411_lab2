@@ -15,6 +15,8 @@ ___
 - [x] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
 - [x] Write the URL of your running Heroku app here:  
 ![http://cis411lab4-ggn10.herokuapp.com/graphql](https://cis411lab4-ggn10.herokuapp.com/)
+> Could not get the heroku app to work. Kept getting the error "Cannot GET /". I added the environment variables and in the Heroku dashboard it said my app built and depolyed successfully.
+![Heroku](../assets/herokuSS.PNG)
 - [x] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project.  
 ![Successful Build](../assets/ggn10ciSS.PNG)
 - [x] Answer the **4** questions below.
