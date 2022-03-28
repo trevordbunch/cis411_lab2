@@ -4,7 +4,7 @@ ___
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Azianna Yang 
 **GitHub Handle:** ay1191  
-**Repository:** Your Forked Repository  
+**Repository:** https://github.com/ay1191/cis411_lab4_CD  
 **Collaborators:** 
 ___
 
