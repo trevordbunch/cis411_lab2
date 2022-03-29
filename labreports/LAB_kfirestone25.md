@@ -21,8 +21,8 @@ ___
 
 ## Questions
 1. Why would a containerized version of an application be beneficial if you can run the application locally already?
-> There are many benefits to a containerized version of an application. Containers do not 
-2. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
+> Just because an application runs smoothly on a local machine does not mean it will run the exact same way once it is shipped into production for others to use. Issues could arise from differences in operating systems, libraries, versions, etc.) Containers allow developers to develop their application locally, but also push their application upstream to ensure that it will work in production. 
+1. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
 > Heroku and CircleCI work together seemlessly to automate the process of delivery workflow. When using CircleCI, pushing a commit to the master means it goes through a continous pipeline where ultiple tests are performed. The code will only be pushed to Heroku if it passes those tests. Therefore, CircleCI serves as a check to ensure that code is running/working properly before pushing to Heroku in order to avoid unneccessary and irreversible errors. 
 3. Why would you use a container technology over a virtual machine(VM)?
 > Container technology essentially packages together everything you need to run an application or microservice (including the code, dependencies, operating system, etc) into one place. Therefore, a container allows you to run an application basically anywhere. This is not the case for virtual machines which contain operating system images. Due to this fact, containers utilize less overhead (system resources) and increase portability and efficiency. 
