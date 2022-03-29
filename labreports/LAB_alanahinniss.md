@@ -16,8 +16,8 @@ ___
 - [x] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project (with the circleci interface).  
 > Example: ![Successful Build](../assets/Screen%20Shot%202022-03-28%20at%2012.49.50%20AM.png)
 
-- [ ] Write the URL of your running Heroku app here (and leave the deployment up so that I can test it):  
-> Example: [http://cis411lab2-trevordbunch.herokuapp.com/graphql](http://cis411lab2-trevordbunch.herokuapp.com/graphql)  
+- [x] Write the URL of your running Heroku app here (and leave the deployment up so that I can test it):  
+> Example: [http://cis411lab4-alanahinniss.herokuapp.com/graphql](hhttp://cis411lab4-alanahinniss.herokuapp.com/graphql)  
 
 > ![Successful Test on Deployed URL](../assets/Screen%20Shot%202022-03-28%20at%201.20.45%20AM.png)
 > 
