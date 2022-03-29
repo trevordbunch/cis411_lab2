@@ -15,7 +15,7 @@ ___
 - [x] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
 - [x] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project (with the circleci interface).  
 > Example: ![Successful Build](/assets/CIBuild.png)
-> The issue seems to be the node version, but my node version is 16+, whereas the one referred to when building is not. I believe this may have to due with the yarn installation from the example code being outdated, but am unsure. Furthermore the deployment is not seen, and am unsure how to get it to show up on circleci.
+> The issue seems to be the node version, but my node version is 16+, whereas the one referred to when building is not. I believe this may have to due with the yarn installation from the example code being outdated, but am unsure. Furthermore the deployment can't run because of it.
 - [x] Write the URL of your running Heroku app here (and leave the deployment up so that I can test it):  
 > Example: [http://cis411lab4-thomasmcvey.herokuapp.com/graphql](http://cis411lab4-thomasmcvey.herokuapp.com/graphql)
 > ![Successful Test on Deployed URL](../ex/trevordbunch_lab2_01.png)
