@@ -5,7 +5,7 @@ The purpose of this lab is to get hands on experience working with Docker, Circl
 
 # Doing the Lab
 
-## 1. Pre-Requisites
+## 1. Pre-Requisitesj
 1. GitHub account
 2. Git is installed on your development machine.
 3. Text editor or other integrated development environment (IDE) for modifying code.  
