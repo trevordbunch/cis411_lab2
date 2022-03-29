@@ -13,11 +13,11 @@ ___
 - [X] Create the directory ```./circleci``` and the file ```.circleci/config.yml``` in your project and push that change to your GitHub repository.
 - [X] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
 - [X] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project (with the circleci interface).  
-> ![Build and Deployment](https://docs.google.com/drawings/d/e/2PACX-1vRPErP1gX-Z6ungaBulThsCLg3ON7yDVVvn5CItT0sYu4jjZuxsn-Nc0diy43sNNcGNRqKYD5YtT0eA/pub?w=960&h=483)
+> ![Build and Deployment](../assets/circleCI.png)
 - [X] Write the URL of your running Heroku app here (and leave the deployment up so that I can test it):  
 > https://cis411lab4-kfirestone25.herokuapp.com/graphql
 
-![Success](https://docs.google.com/drawings/d/e/2PACX-1vRPErP1gX-Z6ungaBulThsCLg3ON7yDVVvn5CItT0sYu4jjZuxsn-Nc0diy43sNNcGNRqKYD5YtT0eA/pub?w=960&h=501)
+![Success](../assets/graphql.png)
 
 - [X] Answer the **4** questions below.
 - [X] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
