@@ -21,8 +21,8 @@ ___
 
 > ![GraphQL](../assets/graphql.png)
 
-> ![Successful Test on Deployed URL](../assets/Screen%20Shot%202022-03-28%20at%201.20.45%20AM.png)
-> 
+> ![Successful Test on Deployed URL](../assets/success%20deploy.png)
+
 - [x] Answer the **4** questions below.
 - [x] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
 
