@@ -4,7 +4,7 @@
   "description": "GitHub and CircleCI building a simple GraphQL service",
   "engines": {
     "node": "12.x",
-    "npm": "6.4.1"
+    "npm": "6.14.6"
   },
   "main": "server.js",
   "scripts": {
