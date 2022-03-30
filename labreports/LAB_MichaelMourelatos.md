@@ -15,11 +15,14 @@ ___
 - [x] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
 - [x] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project (with the circleci interface).  
 
-**Successful Build**:
-![Successful Build](/Successful_Build_and_Deployment.png)
+**Successful Build and Deploy**:
+![Successful Build](/ACTUAL_Correct_SS_of_Build_and_Deploy.png)
 
-**Recent Successful Build**:
-![Recent Successful Build](/Successful_Build.png)
+**Successful Build in Detail**:
+![Successful Build in Detail](/Successful_Build.png)
+
+**Successful Deploy in Detail**:
+![Successful Deploy in Detail](/Screenshot_of_Deploy.png)
 
 
 - [x] Write the URL of your running Heroku app here (and leave the deployment up so that I can test it):  
