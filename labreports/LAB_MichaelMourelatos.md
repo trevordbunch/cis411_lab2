@@ -28,7 +28,7 @@ ___
 [URL for Heroku app with Graphql](http://cis411lab4-michaelmourelatos.herokuapp.com/graphql)
 
 **Successful Build**:
-![Image of HerokuGraphql](/Correct_Screeshot_Off_Heroku.png)
+![Image of Heroku Graphql](/Correct_Screeshot_Off_Heroku.png)
 
 
 - [x] Answer the **4** questions below.
