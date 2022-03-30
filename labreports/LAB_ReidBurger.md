@@ -31,3 +31,5 @@ ___
 > Container technology uses less resources than virtual machine technology, and it's overall more efficient and consistent across different hosts.
 4. What are some alternatives to Docker for containerized deployments?
 > From my 15 minutes of research, the only alternative I've found to Docker is Kubernetes, though CircleCI keeps coming up as an option as well even though I no it's not a container deployment service.
+
+added
