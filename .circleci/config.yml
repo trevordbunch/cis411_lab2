@@ -9,7 +9,6 @@ jobs:
       # specify the version you desire here
       - image: circleci/node:11
 
-s
 
     working_directory: ~/repo
 
