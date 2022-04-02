@@ -4,7 +4,7 @@
   "description": "GitHub and CircleCI building a simple GraphQL service",
   "engines": {
     "node": "12.x",
-    "npm": "6.4.1"
+    
   },
   "main": "server.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "express": "^4.16.3",
     "express-graphql": "^0.6.12",
     "graphql": "^14.0.2",
-    "heroku": "^7.18.7",
+    "heroku": "^7.60.1",
     "lokijs": "^1.5.5",
     "uuid": "^3.3.2"
   },
