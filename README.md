@@ -9,9 +9,8 @@ The purpose of this lab is to get hands on experience working with Docker, Circl
 1. GitHub account
 2. Git is installed on your development machine.
 3. Text editor or other integrated development environment (IDE) for modifying code.  
-...
 4. You will install Docker (and need an account on Docker Hub) as part of this lab.
-5. You will install Heroku CLI (and setup a free account) as part of this lab.
+5. You will sign up for AWS (and setup a free account) as part of this lab.
 
 ## 2. Lab Description
 This lab will build upon your prior experience using CircleCI in [lab 1](https://github.com/trevordbunch/cis411_lab1_CI) for the first two steps.  Step 3 will packaging the GraphQL application into a Docker container.  Step 4 will focus on setting up the Heroku deployment location, and Step 5 will guide you through setting up the CI/CD pipeline in CircleCI.  After the lab, you will need to respond to 4 questions about why container technology is useful in modern architectures.
@@ -47,9 +46,10 @@ Docker Resources
 - [Docker Installation](https://docs.docker.com/get-docker/)
 - [Docker Hub Accounts](https://hub.docker.com/)
 
-Heroku Resources
-- [Heroku Account](https://signup.heroku.com)
-- [Heroku CLI Download](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
+AWS Resources
+- [AWS Signup](https://portal.aws.amazon.com/billing/signup#/start/email)
+- [EC2 Dashboard](https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Home:)
+- [EC2 FAQ](https://aws.amazon.com/ec2/faqs/)
 
 # License
 This content is provided under the `MIT` [license](LICENSE).
@@ -57,4 +57,6 @@ This content is provided under the `MIT` [license](LICENSE).
 # Credits
 Special thanks to Joel Worrall, aka [tangollama](https://github.com/tangollama), for co-developing this course and writing this lab.
 
-[Tanner Stern](https://github.com/tannerstern/) compiled a tutorial on how to install Docker on Windows Home Edition [(here)](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/) and added the associated windows bat files.
+[Tanner Stern](https://github.com/tannerstern/) compiled a tutorial on how to install Docker on Windows Home Edition [(here)](ex/Docker_Installation_Win10_Home.md) and added the associated windows bat files.
+
+[Jeff Sinsel](https://github.com/jeffsinsel) wrote the AWS deploy part of the lab

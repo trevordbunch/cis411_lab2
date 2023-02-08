@@ -171,9 +171,8 @@ Settings > Projects > [Click on the Gear icon in the far right corner of this pr
 ```
 ![Right side gear icon](assets/ci_gear.png "gear icon")
 
-1. Add the following two environment variables to CircleCI: HEROKU_API_KEY equal to the Token generated from the command above and HEROKU_APP_NAME equal to the name of your Heroku app: cis411lab4-[GITHUB_HANDLE].
-![HEROKU_APP_NAME](assets/ci_app_name.png "HEROKU_APP_NAME")
-![HEROKU_API_KEY](assets/ci_api_key.png "HEROKU_API_KEY")
+1. Add the following two environment variables to CircleCI: HEROKU_API_KEY equal to the Token generated from the command above and HEROKU_APP_NAME equal to the name of your Heroku app: cis411lab4-[GITHUB_HANDLE].  
+Ex:![HEROKU_API_KEY](assets/ci_api_key.png "HEROKU_API_KEY")
 
 1. Open the ```.circleci/config.yml``` file and add the following contents to the end of the file:
 ```
