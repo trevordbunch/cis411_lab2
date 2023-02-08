@@ -12,7 +12,7 @@ jobs:
       - node/install-packages:
           pkg-manager: yarn
       - run:
-          command: yarn run test
+          command: yarn test
           name: Run tests
 
   build-and-push:
@@ -22,11 +22,11 @@ jobs:
       - checkout
       - docker/check
       - docker/build:
-          image: ${DOCKER_LOGIN}/lab1
+          image: ${DOCKER_LOGIN}/lab4
           tag: latest
       - docker/push:
           digest-path: /tmp/digest.txt
-          image: ${DOCKER_LOGIN}/lab1
+          image: ${DOCKER_LOGIN}/lab4
           tag: latest
   
   deploy:

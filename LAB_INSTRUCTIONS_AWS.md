@@ -17,7 +17,7 @@ Lab reports will be submitted by
 4. Install Docker on your development environment, either for [Mac](https://docs.docker.com/docker-for-mac/install/), [Windows](https://docs.docker.com/docker-for-windows/install/), or various Linux distributions.  
 > If you have Windows Home Edition, then you should following these [instructions](ex/Docker_Installation_Win10_Home.md) to navigate the system requirements.  
 5. [Sign up for an account on Docker Hub](https://hub.docker.com/) and keep track of your username and password (You'll need that later).
-6. [Sign up for an AWS](https://portal.aws.amazon.com/billing/signup#/start/email) account (You'll need that later too).
+6. [Sign up for an AWS](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fus-east-1.console.aws.amazon.com%2Fec2%2Fv2%2Fhome%3Fregion%3Dus-east-1%26skipRegion%3Dtrue%26state%3DhashArgs%2523%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fec2&forceMobileApp=0&code_challenge=GveyVTCfRPcuZOzmwAjvoFvxa1aFEodTj--suslfBkM&code_challenge_method=SHA-256) account (You'll need that later too).
 
 
 # Step 1: Fork and clone this repository
@@ -58,35 +58,27 @@ Lab reports will be submitted by
 - Add a file to that directory named config.yml ```code .circleci/config.yml```.
 - Copy the content below into config.yml.
 ```
-version: 2
+version: 2.1
+orbs:
+  node: circleci/node@5.1.0
+  docker: circleci/docker@2.2.0
+  aws-cli: circleci/aws-cli@3.1.1 
+
 jobs:
-  build:  
-    docker:
-      - image: circleci/node:11
+  test:
+    executor: node/default
     steps:
       - checkout
-
-      # Download and cache dependencies
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "package.json" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
-
-      - run: yarn install
-
-      - save_cache:
-          paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
-        
-      # run tests!
-      - run: yarn test
+      - node/install-packages:
+          pkg-manager: yarn
+      - run:
+          command: yarn test
+          name: Run tests
 ```
 1. Save and add the .circleci directory to your forked repository. **Note: these files must be present in your submitted pull request.**
 ```
 > git add .circleci
-> git commit -m "something something something"
+> git commit -m "something something circleci something"
 > git push
 ```
 5. Verify that the current config file is correct and the project is building in CircleCI.
@@ -111,7 +103,7 @@ EXPOSE 4000
 5. Build and run the Docker image using the following commands from _within_ the cis411_lab4_CD directory:
 ```
 > docker build -t lab4 .
-> docker run -p 4000:4000 lab4 &
+> docker run -p 4000:4000 lab4 
 ```
 > Tip: the period (`.`) at the end of the command is important!  
 6. Navigate to http://localhost:4000/graphql and verify that you can access GraphQL.
@@ -126,25 +118,25 @@ EXPOSE 4000
 > git push
 ```
 
-# Step 4: Setup a Heroku application
-There are _lots_ of solutions for providing a CD endpoint including AWS, Google Cloud, Azure, Digital Ocean, etc. For the purposes of this assignment, we're going to use **Heroku** for one reason: it's _relatively_ easy.
+# Step 4: Setup a AWS application
+There are _lots_ of solutions for providing a CD endpoint including Heroku, Google Cloud, Azure, Digital Ocean, etc. For the purposes of this assignment, we're going to use **AWS** for one reason: it's _relatively_ easy.
 
-1. Login to heroku through the CLI using the username and password you created when you signed up for an account.
+1. Login to AWS through your browser 
 ```
 > heroku login
 ```
-2. Initiate a Heroku app. This can be handled through [the user interface](http://heroku.com/deploy) or via the command line instructions below, replacing the [GITHUB_HANDLE] with your GitHub handle.
+1. Initiate a Heroku app. This can be handled through [the user interface](http://heroku.com/deploy) or via the command line instructions below, replacing the [GITHUB_HANDLE] with your GitHub handle.
 ```
 > heroku apps:create cis411lab4-[GITHUB_HANDLE] -b heroku/nodejs
 > git push heroku main 
 ```
 You should see quite a bit of output as the application builds itself and deploys to Heroku.
 
-3. Open a web browser and go to the following URL to ensure your app is running:
+1. Open a web browser and go to the following URL to ensure your app is running:
 ```
 http://[GITHUB_HANDLE].herokuapp.com/graphql
 ```
-4. **Include this URL in your lab report.**
+1. **Include this URL in your lab report.**
 
 # Step 5: Configure CircleCI for CD to Heroku
 
