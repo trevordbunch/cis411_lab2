@@ -1,0 +1,55 @@
+version: 2.1
+orbs:
+  node: circleci/node@5.1.0
+  docker: circleci/docker@2.2.0
+  aws-cli: circleci/aws-cli@3.1.1 
+
+jobs:
+  test:
+    executor: node/default
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: yarn
+      - run:
+          command: yarn run test
+          name: Run tests
+
+  build-and-push:
+    executor: docker/docker
+    steps:
+      - setup_remote_docker
+      - checkout
+      - docker/check
+      - docker/build:
+          image: ${DOCKER_LOGIN}/lab1
+          tag: latest
+      - docker/push:
+          digest-path: /tmp/digest.txt
+          image: ${DOCKER_LOGIN}/lab1
+          tag: latest
+  
+  deploy:
+    machine:
+      enabled: true
+    steps:
+      - checkout
+      # - aws-cli/install
+      # - aws-cli/setup
+      - run: 
+          name: Connect and deploy through SSH
+          no_output_timeout: 30s
+          command: ssh -o "StrictHostKeyChecking no" ec2-user@${AWS_DOMAIN} "
+              sudo service docker start;
+              bash script.sh;"
+
+workflows:
+  lab4-CICD-pipeline:
+    jobs:
+      - test
+      - build-and-push:
+          requires:
+            - test
+      - deploy:
+          requires:
+            - build-and-push
