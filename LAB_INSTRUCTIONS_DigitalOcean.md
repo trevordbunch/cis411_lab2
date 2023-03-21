@@ -17,8 +17,7 @@ Lab reports will be submitted by
 4. Install Docker on your development environment, either for [Mac](https://docs.docker.com/docker-for-mac/install/), [Windows](https://docs.docker.com/docker-for-windows/install/), or various Linux distributions.  
 > If you have Windows Home Edition, then you should following these [instructions](ex/Docker_Installation_Win10_Home.md) to navigate the system requirements.  
 5. [Sign up for an account on Docker Hub](https://hub.docker.com/) and keep track of your username and password (You'll need that later).
-6. [Sign up for a Heroku](https://signup.heroku.com) account.  Make sure that you get the Heroku for GitHub Students (https://www.heroku.com/github-students) or be prepared to pay.   (You'll need that later too).
-7. [Download and install the Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install).
+6. [Sign up for a Digital Ocean](https://www.digitalocean.com/) account. You will need to add a card to get the free credits. 
 
 
 # Step 1: Fork and clone this repository
