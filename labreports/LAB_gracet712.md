@@ -1,16 +1,16 @@
 # Lab Report: UX/UI
 ___
-**Course:** CIS 411, Spring 2021  
+**Course:** CIS 411, Spring 20213 
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
+**Name:** Grace Taylor 
+**GitHub Handle:** gracet712  
+**Repository:** https://github.com/gracet712/cis411_lab4_CD  
 **Collaborators:** 
 ___
 
 # Required Content
 
-- [ ] Generate a markdown file in the labreports directory named LAB_[GITHUB HANDLE].md. Write your lab report there.
+- [X] Generate a markdown file in the labreports directory named LAB_[GITHUB HANDLE].md. Write your lab report there.
 - [ ] Create the directory ```./circleci``` and the file ```.circleci/config.yml``` in your project and push that change to your GitHub repository.
 - [ ] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
 - [ ] Write the URL of your app hosted on Heroku or other Cloud Provider here:  
