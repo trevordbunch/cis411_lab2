@@ -3,9 +3,9 @@ ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Jonah Robinson  
-**GitHub Handle:** jrmakr2123  
-**Repository:** Your Forked Repository  
-**Collaborators:** 
+**GitHub Handle:** [jrmakr2123](https://github.com/jrmakr2123)  
+**Repository:** [Continuous Development](https://github.com/jrmakr2123/cis411_lab4_CD) 
+<!-- **Collaborators:**  -->
 ___
 
 # Required Content
