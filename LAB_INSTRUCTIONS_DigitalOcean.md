@@ -147,7 +147,7 @@ There are _lots_ of solutions for providing a CD endpoint including AWS, Google 
 
 1. Login to [Digital Ocean](https://cloud.digitalocean.com/projects?i=49cc11) through the web interface and click create then click app.
 ![Create app](/assets/do1.png)
-2. Select the docker hub option and enter your repo copying the name from the command above. You should also [see your docker hub repo here](https://hub.docker.com/).
+2. Select the docker hub option and enter your repo copying the name from the command above. Enter 'tag' for tag. You should also [see your docker hub repo here](https://hub.docker.com/).
 ![Select docker hub](/assets/do2.png)
 3. Click next accepting the default settings, when you get to info you can change the name of the app to cis411lab4-[GITHUB_HANDLE]. Click create resources. 
 4. Wait for service to deploy.
