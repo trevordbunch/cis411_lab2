@@ -9,7 +9,8 @@
   "main": "server.js",
   "scripts": {
     "run": "node server.js",
-    "test": "exit 0"
+    "test": "exit 0",
+    "deploy": "npx gh-pages -b deploy --message '[skip ci] Updates' -d ./"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
     "uuid": "^3.3.2"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "nyc": "^13.1.0"
   }
 }
