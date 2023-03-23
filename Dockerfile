@@ -1,9 +1,7 @@
 FROM node:15
 WORKDIR /dist
 COPY package.json /dist
-RUN npm uninstall graphql
-RUN npm install express express-graphql
-RUN npm install graphql
+RUN npm install
 COPY . /dist
 CMD node server.js
 EXPOSE 4000
