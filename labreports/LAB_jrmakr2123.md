@@ -1,6 +1,6 @@
 # Lab Report: Continuous Development  
 ___
-**Course:** CIS 411, Spring 2021  
+**Course:** CIS 411, Spring 2023  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Jonah Robinson  
 **GitHub Handle:** [jrmakr2123](https://github.com/jrmakr2123)  
@@ -24,9 +24,9 @@ ___
 ## Questions
 1. Why would a containerized version of an application be beneficial if you can run the application locally already?
 > Respond here...
-2. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
+2. If we have the ability to publish directory to Digital Ocean, why involve a CI solution like CircleCI? What benefit does it provide?
 > Respond here...
 3. Why would you use a container technology over a virtual machine(VM)?
-> Respond here...
+> Container technology interfaces with the kernel thus not requiring an additional license to run. In virtual machine instances, licensing is required for each additional virtual machine. 
 4. What are some alternatives to Docker for containerized deployments?
 > Respond here...
