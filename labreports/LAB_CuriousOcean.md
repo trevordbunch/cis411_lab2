@@ -15,12 +15,12 @@ ___
 - [x] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
 - [x] Write the URL of your app hosted on DigitalOcean here:  
 > Proof: [Shane's website](https://plankton-app-yhrto.ondigitalocean.app/graphql)
-- [ ] Embed _using markdown_ a screenshot of your successful deployed application to Heroku.  
-> Example: ![Successful Build](../ex/trevordbunch_lab2_01.png)
-- [ ] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project (with the circleci interface).  
-> Example: ![Successful Build](../ex/trevordbunch_lab2_02.png)
-- [ ] Answer the **4** questions below.
-- [ ] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
+- [x] Embed _using markdown_ a screenshot of your successful deployed application to DigitalOcean.  
+> Example: ![assets](../assets/digitaloceanproof.PNG)
+- [x] Embed _using markdown_ a screenshot of your successful build and deployment to DigitalOcean of your project (with the circleci interface).  
+> Example: ![assets](../assets/digitaloceanpipelineproof.PNG)
+- [x] Answer the **4** questions below.
+- [x] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
 
 ## Questions
 1. Why would a containerized version of an application be beneficial if you can run the application locally already?
