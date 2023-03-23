@@ -24,10 +24,10 @@ ___
 
 ## Questions
 1. Why would a containerized version of an application be beneficial if you can run the application locally already?
-> Respond here...
+> Having a centralized version of an app allows for easier consistency, portability, and isolation. Having it isolated prevents errors/conflicts from ruining the main code if you are staring it with others or if you need to backtrack. 
 2. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
-> Respond here...
+> CircleCI automatically tests the directory to ensure a consistent and correct workflow.
 3. Why would you use a container technology over a virtual machine(VM)?
-> Respond here...
+> A container does not double up on using the operating system, whereas a virtual machine would. This means that the container is not only cheaper, as it saves money/power, but it is also lightweight and transportable.
 4. What are some alternatives to Docker for containerized deployments?
-> Respond here...
+> Altneratives to Docker include, but are not limited to, Podman, RunC, Kubernetes, Cloud Foundry, CoreOS rkt, and OpenVZ.
