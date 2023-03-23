@@ -1,6 +1,6 @@
-# Lab Report: UX/UI
+# Lab Report: Continuous Deployment
 ___
-**Course:** CIS 411, Spring 2021  
+**Course:** CIS 411, Spring 2023  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Your Name  
 **GitHub Handle:** Your GitHub Handle  
@@ -19,6 +19,7 @@ ___
 > Example: ![Successful Build](../ex/trevordbunch_lab2_01.png)
 - [ ] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project (with the circleci interface).  
 > Example: ![Successful Build](../ex/trevordbunch_lab2_02.png)
+- [ ] Copy your mutation from your graphql instance here:
 - [ ] Answer the **4** questions below.
 - [ ] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
 

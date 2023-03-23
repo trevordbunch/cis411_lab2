@@ -17,6 +17,7 @@ Lab reports will be submitted by
 4. Install Docker on your development environment, either for [Mac](https://docs.docker.com/docker-for-mac/install/), [Windows](https://docs.docker.com/docker-for-windows/install/), or various Linux distributions.  
 > If you have Windows Home Edition, then you should following these [instructions](ex/Docker_Installation_Win10_Home.md) to navigate the system requirements.  
 5. [Sign up for an account on Docker Hub](https://hub.docker.com/) and keep track of your username and password (You'll need that later).
+6. [Sign up for Digital Ocean](https://www.digitalocean.com).
 
 # Step 1: Fork and clone this repository
 1. After logging in, navigate to the [root](https://github.com/trevordbunch/cis411_lab4_CD) of this repository.
@@ -141,12 +142,18 @@ Docker desktop is different than docker hub, you must push your image to your do
 # Step 4: Setup a Digital Ocean application
 There are _lots_ of solutions for providing a CD endpoint including AWS, Google Cloud, Azure, Digital Ocean, etc. For the purposes of this assignment, we're going to use **Digital Ocean** for one reason: it's _relatively_ easy. They provide $200 free credits which must be used in 60 days.
 
-1. Login to Digital Ocean through the web interface and go to manage, apps, create app, github, select your repository and branch, click next.
-2. Edit any setting such as name if you like.
-3. Wait for service to deploy.
-4. **Click the live app button and append /graphql to the end. You will see graphql running!**  
+1. Login to Digital Ocean through the web interface.
+2. Go to manage, apps, create app.
+3. Choose github and select your repository and branch; click next.
+4. On the Resources page, delete the Lab4-cd2 web service. This is a node compiling service that is generated with your docker web service (Lab4-cd). For this lab we only need the docker service.
+![Part to Delete](./assets/digitalOcean_webService_Setup.png)
+5. Edit any setting such as **name** if you like.
+6. Wait for service to deploy.
+7. Click the live app button. You will see an error like _Cannot GET /_.
+8. **Append /graphql to the end. You will see graphql running!**    
+
 ![Live Application](assets/digitalOcean_success.png)  
-5. **Include this URL in your lab report.**
+1. **Include this URL in your lab report.**
 
 # Step 5: Configure CircleCI for CD to Digital Ocean
 
