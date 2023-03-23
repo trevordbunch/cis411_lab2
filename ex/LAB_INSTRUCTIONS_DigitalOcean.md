@@ -125,7 +125,7 @@ EXPOSE 4000
 > git push
 ```
 
-# Step 4: Push docker desktop file to docker hub
+<!-- # Step 4: Push docker desktop file to docker hub
 Docker desktop is different than docker hub, you must push your image to your docker hub account. Do the following from git cli:
 1. Tag your image
   ```docker tag your-local-image your-docker-hub-username/repository-name:tag```<br>
@@ -135,20 +135,20 @@ Docker desktop is different than docker hub, you must push your image to your do
    ```docker push your-docker-hub-username/repository-name:tag``` <br>
    Example
    ```docker push rt1252/lab4:tag```
-3. Go to [docker hub](https://hub.docker.com/repositories) and view your repo.
+3. Go to [docker hub](https://hub.docker.com/repositories) and view your repo. -->
 
 
-# Step 5: Setup a Digital Ocean application
+# Step 4: Setup a Digital Ocean application
 There are _lots_ of solutions for providing a CD endpoint including AWS, Google Cloud, Azure, Digital Ocean, etc. For the purposes of this assignment, we're going to use **Digital Ocean** for one reason: it's _relatively_ easy. They provide $200 free credits which must be used in 60 days.
 
-1. Login to Digital Ocean through the web interface and go to manage, apps, create app, docker hub, type in the repo (example: rt1252/lab4), enter 'tag' for tag, click next.
+1. Login to Digital Ocean through the web interface and go to manage, apps, create app, github, select your repository and branch, click next.
 2. Edit any setting such as name if you like.
 3. Wait for service to deploy.
-4. Click the live app button and append /graphql to the end. You will see graphql running!  
+4. **Click the live app button and append /graphql to the end. You will see graphql running!**  
 ![Live Application](assets/digitalOcean_success.png)  
 5. **Include this URL in your lab report.**
 
-# Step 6: Configure CircleCI for CD to Digital Ocean
+# Step 5: Configure CircleCI for CD to Digital Ocean
 
 1. From the menu on the digital ocean homepage scroll to the bottom and click API. 
 2. Name the token and click generate, copy the token.

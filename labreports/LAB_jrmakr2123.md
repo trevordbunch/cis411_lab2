@@ -1,4 +1,4 @@
-# Lab Report: UX/UI
+# Lab Report: Continuous Development  
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
@@ -13,7 +13,7 @@ ___
 - [x] Generate a markdown file in the labreports directory named LAB_[GITHUB HANDLE].md. Write your lab report there.
 - [x] Create the directory ```./circleci``` and the file ```.circleci/config.yml``` in your project and push that change to your GitHub repository.
 - [x] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
-- [x] Write the URL of your app hosted on Heroku or other Cloud Provider here:  [https://cis411lab4-jrmakr2123-458up.ondigitalocean.app/graphql](https://cis411lab4-jrmakr2123-458up.ondigitalocean.app/graphql)
+- [x] Write the URL of your app hosted on Heroku or other Cloud Provider here:  [https://cis411lab4-jrmakr2123-u4el5.ondigitalocean.app/graphql](https://cis411lab4-jrmakr2123-u4el5.ondigitalocean.app/graphql)
 - [x] Embed _using markdown_ a screenshot of your successful deployed application to Digital Ocean.  
 > ![Successful Build](./../assets/digital%20ocean%20app.png)
 - [ ] Embed _using markdown_ a screenshot of your successful build and deployment to Digital Ocean of your project (with the circleci interface).  
