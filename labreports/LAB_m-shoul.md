@@ -45,5 +45,5 @@ ___
 > 3. CoreOS rkt
 > 4. Kubernetes
 > 5. LXC (Linux Containers)  
-
+>
 > There are many others among this list and [this article](https://www.simplilearn.com/docker-alternatives-article) lists a lot of alternatives and does a good job of explaining them.
