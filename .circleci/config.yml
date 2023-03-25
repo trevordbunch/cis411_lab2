@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: .circleci/node:11
+      - image: circleci/node:11
     steps:
       - checkout
 
@@ -22,7 +22,6 @@ jobs:
 
       # run tests!
       - run: yarn test
-
   deploy:
     docker:
       - image: buildpack-deps:trusty
@@ -53,8 +52,6 @@ jobs:
           name: Deploy to DigitalOcean
           command: |
             kubectl apply -f k8s
-
-
 workflows:
   version: 2
   build-deploy:
@@ -65,4 +62,4 @@ workflows:
             - build
           filters:
             branches:
-              only: purelab
+              only: main
