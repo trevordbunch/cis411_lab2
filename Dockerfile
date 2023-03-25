@@ -1,4 +1,4 @@
-FROM node:11
+FROM --platform=linux/amd64 node:11
 WORKDIR /dist
 COPY package.json /dist
 RUN npm install
