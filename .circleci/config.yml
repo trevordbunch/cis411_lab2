@@ -28,9 +28,9 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Deploy purelab to Heroku
+          name: Deploy main to Heroku
           command: |
-            git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git purelab
+            git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git main
 
 workflows:
   version: 2
@@ -42,4 +42,4 @@ workflows:
             - build
           filters:
             branches:
-              only: purelab
+              only: main
