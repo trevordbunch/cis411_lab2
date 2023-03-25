@@ -3,8 +3,8 @@ ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** [Joseph McGillen](https://github.com/jm1959)  
-**GitHub Handle:** jm1959
-**Repository:** CIS411_LAB4_CD
+**GitHub Handle:** jm1959   
+**Repository:** CIS411_LAB4_CD   
 **Collaborators:** 
 ___
 
@@ -16,9 +16,9 @@ ___
 - [X] Write the URL of your app hosted on Heroku or other Cloud Provider here:  
 > Example: [https://cis411lab4-jm1959.herokuapp.com/graphql](https://cis411lab4-jm1959.herokuapp.com/graphql)
 - [X] Embed _using markdown_ a screenshot of your successful deployed application to Heroku.  
-> Example: ![Successful Build]()
+> Example: ![Successful Build](../assets/successGraphql.png)
 - [X] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project (with the circleci interface).  
-> Example: ![Successful Build]()
+> Example: ![Successful Build](../assets/BuildandDeployment.png)
 - [X] Answer the **4** questions below.
 - [X] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
 
