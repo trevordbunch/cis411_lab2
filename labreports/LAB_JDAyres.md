@@ -14,8 +14,8 @@ ___
 - [X] Create the directory ```./circleci``` and the file ```.circleci/config.yml``` in your project and push that change to your GitHub repository.
 - [x] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
 - [x] Write the URL of your app hosted on Heroku or other Cloud Provider here: [https://cis411lab4-jdayres-srn5x.ondigitalocean.app/graphql](https://cis411lab4-jdayres-srn5x.ondigitalocean.app/graphql)
-- [ ] Embed _using markdown_ a screenshot of your successful deployed application to DigitalOcean.  
-> Example: ![Successful Build](../ex/trevordbunch_lab2_01.png)
+- [x] Embed _using markdown_ a screenshot of your successful deployed application to DigitalOcean.  
+> Example: ![Successful Build](../assets/MyScreenShots/DigitalOceanAppSuccess.png)
 - [ ] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project (with the circleci interface).  
 > Example: ![Successful Build](../ex/trevordbunch_lab2_02.png)
 - [ ] Answer the **4** questions below.
