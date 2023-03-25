@@ -5,7 +5,7 @@ ___
 **Name:** Michael Shoul  
 **GitHub Handle:** [m-shoul](https://github.com/m-shoul)  
 **Repository:** [m-shoul / cis411_lab4_CD](https://github.com/m-shoul/cis411_lab4_CD)  
-**Collaborators:** 
+**Collaborators:** None
 ___
 
 # Required Content
@@ -26,7 +26,7 @@ ___
 ![Successful Build](../assets/ShoulCircleCISuccess.png)
 
 - [X] Answer the **4** questions below.
-- [ ] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
+- [X] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
 
 ## Questions
 1. Why would a containerized version of an application be beneficial if you can run the application locally already?
