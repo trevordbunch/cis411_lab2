@@ -2,17 +2,17 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Your Name  
-**GitHub Handle:** Your GitHub Handle  
-**Repository:** Your Forked Repository  
+**Name:** Noah Brenneis  
+**GitHub Handle:** NoahBrenneis  
+**Repository:** github.com/NoahBrenneis/cis411_lab4_CD  
 **Collaborators:** 
 ___
 
 # Required Content
 
-- [ ] Generate a markdown file in the labreports directory named LAB_[GITHUB HANDLE].md. Write your lab report there.
-- [ ] Create the directory ```./circleci``` and the file ```.circleci/config.yml``` in your project and push that change to your GitHub repository.
-- [ ] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
+- [x] Generate a markdown file in the labreports directory named LAB_[GITHUB HANDLE].md. Write your lab report there.
+- [x] Create the directory ```./circleci``` and the file ```.circleci/config.yml``` in your project and push that change to your GitHub repository.
+- [x] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
 - [ ] Write the URL of your app hosted on Heroku or other Cloud Provider here:  
 > Example: [http://cis411lab2-trevordbunch.herokuapp.com/graphql](http://cis411lab2-trevordbunch.herokuapp.com/graphql)
 - [ ] Embed _using markdown_ a screenshot of your successful deployed application to Heroku.  
