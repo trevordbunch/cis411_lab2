@@ -3,8 +3,8 @@ ___
 **Course:** CIS 411, Spring 2023  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Hope Tressler  
-**GitHub Handle:** hopetressler
-**Repository:**  https://github.com/hopetressler/cis411_lab4_CD.git
+**GitHub Handle:** hopetressler  
+**Repository:**  https://github.com/hopetressler/cis411_lab4_CD.git  
 **Collaborators:** 
 ___
 
