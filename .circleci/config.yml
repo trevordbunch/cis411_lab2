@@ -12,7 +12,10 @@ jobs:
       - node/install-packages:
           pkg-manager: npm
       - run:
-          command: npm install express express-graphql graphql
+          command: npm uninstall graphql
+          command: npm install express express-graphql
+          command: npm install graphql
+          command: npm test
           name: Run tests
 
   build-and-push:
