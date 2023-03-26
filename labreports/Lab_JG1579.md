@@ -27,9 +27,18 @@ ___
 1. Why would a containerized version of an application be beneficial if you can run the application locally already?
 > Containers are more lightweight then V.m's and therefore are faster to start up. This means you can test and adjust apps quickly.
 >Containers keep dependencies and config's and so they give a more consistent experience throughout development.
+>They make it easier to use microservice architecture.
+>They are easy to deploy on various platforms
 2. If we have the ability to publish directory to Digital Ocean, why involve a CI solution like CircleCI? What benefit does it provide?
-> Respond here...
+> CircleCI tests the code before deployment preventing you from sending broken code out.
+> Allows you to test multiple programs at the same time. This saves time foe developers as they can know what works and what needs to be fixed.
+>Allows for multiple extensions giving developers a wider array of tools.
+>Lets you customize the workflow giving developers a greater amount of control for testing.
 3. Why would you use a container technology over a virtual machine(VM)?
-> Respond here...
+> They are faster to load up as they only deploy the app and not the entire OS 
+>They are more efficient, as stated above the resources are focused on the app only and not the entire OS.
+>They are easier to deploy on the cloud.
 4. What are some alternatives to Docker for containerized deployments?
-> Respond here...
+> Containerd: open source daemon that works as a interface for the container process. Works with Linux and Windows and is known for easy to mange container lifecycle
+>Cloud Factory: Open source and industry level cloud app platform. Can use multiple different programming languages and uses your computers infrastructure to deploy apps.
+>Hyper-V Containers:They are not open sources although they are compatible with open source solutions. They provide a good degree of isolationism and portability.
