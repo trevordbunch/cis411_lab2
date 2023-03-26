@@ -50,17 +50,3 @@ jobs:
           command: ssh -o "StrictHostKeyChecking no" ec2-user@${AWS_DOMAIN} "
               sudo service docker start;
               bash script.sh;"
-
-workflows:
-  lab4-CICD-pipeline:
-    jobs:
-      - build
-      - build-and-push:
-          requires:
-            - build
-      - deploy:
-          requires:
-            - build-and-push
-          filters:
-            branches:
-              only: main
