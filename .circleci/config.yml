@@ -10,11 +10,11 @@ jobs:
     steps:
       - checkout
       - node/install-packages:
-          pkg-manager: yarn
+          pkg-manager: npm
       - run:
-          command: yarn test
+          command: npm test
           name: Run tests
-          
+
   build-and-push:
     executor: docker/docker
     steps:
