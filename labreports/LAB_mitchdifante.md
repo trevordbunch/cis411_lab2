@@ -14,24 +14,33 @@ ___
 
 - [x] Create the directory ```./circleci``` and the file ```.circleci/config.yml``` in your project and push that change to your GitHub repository.
 
-- [ ] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
+- [x] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
   
-- [ ] Write the URL of your app hosted on Heroku or other Cloud Provider here:  
+- [x] Write the URL of your app hosted on Heroku or other Cloud Provider here:  
 > Example: [http://cis411lab2-trevordbunch.herokuapp.com/graphql](http://cis411lab2-trevordbunch.herokuapp.com/graphql)
 
-> 
+> (http://mitchdifante.herokuapp.com/graphql)
 
 - [ ] Embed _using markdown_ a screenshot of your successful deployed application to Heroku.  
 
 > Example: ![Successful Build](../ex/trevordbunch_lab2_01.png)
 
-> ![Successful Build] ()
+> ![Successful Build] (mutation {
+>   mutateAccount(input: {
+>   email: "md1430@messiah.edu"
+>   name: "MITCH DIFANTE" 
+>   mutation: "add"}) { 
+>   id "b91950bd-5a99-4c58-8382-e48c67890756"
+>   name "MITCH DIFANTE"
+>   email "md1430@messiah.edu }}) 
 
-- [ ] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project (with the circleci interface). 
+> (My GraphiQL was not working throughout this, my npm items would constantly show up as errors. For time constraints I unfortunately could not get it squared away on my laptop.)
+
+- [x] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project (with the circleci interface). 
 
 > Example: ![Successful Build](../ex/trevordbunch_lab2_02.png)
 
-> ![Successful Build] ()
+> ![Successful Build] (CircleCIScreenshot.png) (I was having several permission issues throughout this section and it would not take my file originally so it keeps failing).
 
 - [x] Answer the **4** questions below.
   
