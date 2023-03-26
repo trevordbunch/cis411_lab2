@@ -6,17 +6,25 @@ orbs:
 
 jobs:
   test:
-    executor: node/default
+    docker:
+      - image: circleci/node:15
     steps:
       - checkout
-      - node/install-packages:
-          pkg-manager: npm
-      - run:
-          command: npm uninstall graphql
-          command: npm install express express-graphql
-          command: npm install graphql
-          command: npm test
-          name: Run tests
+      - restore_cache:
+        keys:
+        - v1-dependencies-{{ checksum "package.json" }}
+        - v1-dependencies-
+
+      - run: npm uninstall graphql
+      - run: npm install express express-graphql
+      - run: npm install graphql
+
+      - save_cache:
+        paths:
+          - node_modules
+        key: v1-dependencies-{{ checksum "package.json" }}
+
+      - run: npm test
 
   build-and-push:
     executor: docker/docker
