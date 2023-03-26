@@ -4,7 +4,7 @@ ___
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Jonathan Gaston 
 **GitHub Handle:** JG1579  
-**Repository:** Your Forked Repository  
+**Repository:** https://github.com/JG1579/cis411_lab4_CD?organization=JG1579&organization=JG1579
 **Collaborators:** 
 ___
 
