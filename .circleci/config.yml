@@ -1,14 +1,26 @@
-version: 2.1
-orbs:
-  node: circleci/node@5.1.0
-  docker: circleci/docker@2.2.0
-  aws-cli: circleci/aws-cli@3.1.1 
-
+version: 2
 jobs:
-  test:
-    executor: node/default
+  build:  
+    docker:
+      - image: circleci/node:15
     steps:
       - checkout
-      - node/install-packages:
-          pkg-manager: yarn
-      - run: yarn test
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+
+      - run: npm uninstall graphql
+      - run: npm install express express-graphql
+      - run: npm install graphql
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+        
+      # run tests!
+      - run: npm test
