@@ -112,7 +112,7 @@ EXPOSE 4000
 5. Build and run the Docker image using the following commands from _within_ the cis411_lab4_CD directory:
 ```
 > docker build -t lab4 .
-> docker run -p 4000:4000 lab4 &
+> docker run -p 4000:4000 lab4
 ```
 > Tip: the period (`.`) at the end of the command is important!  
 6. Navigate to http://localhost:4000/graphql and verify that you can access GraphQL.
