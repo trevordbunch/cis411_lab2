@@ -1,11 +1,11 @@
 # Lab Report: UX/UI
 ___
-**Course:** CIS 411, Spring 2021  
+**Course:** CIS 411, Spring 2023  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
 **Name:** Joshua Phillips  
 **GitHub Handle:** jp1478  
-**Repository:** Your Forked Repository  
-**Collaborators:** 
+**Repository:** https://github.com/jp1478/cis411_lab4_CD  
+**Collaborators:** 02NRA, aidan-hubley
 ___
 
 # Required Content
@@ -13,9 +13,9 @@ ___
 - [x] Generate a markdown file in the labreports directory named LAB_[GITHUB HANDLE].md. Write your lab report there.
 - [x] Create the directory ```./circleci``` and the file ```.circleci/config.yml``` in your project and push that change to your GitHub repository.
 - [x] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
-- [ ] Write the URL of your app hosted on Heroku or other Cloud Provider here:  
+- [x] Write the URL of your app hosted on Heroku or other Cloud Provider here:  
 > [https://cis411lab4-jp1478-os7gv.ondigitalocean.app/graphql](https://cis411lab4-jp1478-os7gv.ondigitalocean.app/graphql)
-- [x] Embed _using markdown_ a screenshot of your successful deployed application to Heroku.  
+- [x] Embed _using markdown_ a screenshot of your successful deployed application to Digital Ocean.  
 > Example: ![Successful Build](../assets/GraphQL.JPG)
 - [x] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project (with the circleci interface).  
 > Example: ![Successful Build](../assets/CircleCI.JPG)
