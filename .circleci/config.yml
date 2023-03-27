@@ -1,4 +1,7 @@
- build:  
+
+version: 2
+jobs:
+  build:  
     docker:
       - image: circleci/node:11
     steps:
