@@ -1,0 +1,37 @@
+# Lab Report: UX/UI
+___
+**Course:** CIS 411, Spring 2021  
+**Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
+**Name:** Timothy Comerford  
+**GitHub Handle:** Tcomerford1972  
+**Repository:** Your Forked Repository  
+**Collaborators:** None this time.
+___
+
+# Required Content
+
+- [X] Generate a markdown file in the labreports directory named LAB_TComerford1972.md. Write your lab report there.
+- [X] Create the directory ```./circleci``` and the file ```.circleci/config.yml``` in your project and push that change to your GitHub repository.
+- [X] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
+- [X] Write the URL of your app hosted on digitalocean here:  
+> Example: [https://cis411-lab4-x4fv7.ondigitalocean.app/graphql](https://cis411-lab4-x4fv7.ondigitalocean.app/graphql)
+- [X] Embed _using markdown_ a screenshot of your successful deployed application to Heroku.  
+> Example: ![Successful Build](assets/../../assets/Screenshot2.jpg)
+- [x] Embed _using markdown_ a screenshot of your successful build and deployment to digitalocean of your project (with the circleci interface).  
+> Example: ![Successful Build]
+- [x] Answer the **4** questions below.
+- [x] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
+
+## Questions
+1. Why would a containerized version of an application be beneficial if you can run the application locally already?
+> Containers are a smaller and lighter way to run product testing for instances and operating systems than spinning up VM or testing on full blown operating systems.
+2. If we have the ability to publish directory to digital ocean, why involve a CI solution like CircleCI? What benefit does it provide?
+> I think they have a bunch of crossover content but there is advantages to each. Circleci automates workflows and helps streamline development. Digitalocean offers quicker server deployments and scales well.
+3. Why would you use a container technology over a virtual machine(VM)?
+> It has the ability to run multiple instances of the applications and has only the code needed to run the application and there fore does not take as many resources.
+4. What are some alternatives to Docker for containerized deployments?
+> Cloud Foundry: an open-source cloud application platform suppoting most popular programming languages and developer frameworks. 
+> Containerd: an open-source daemon working as an interface between a container engine and container runtimes supported by both Linux and Window.
+> CoreOS rkt: pronounced "rocket" and it offers better security than docker. It's great for rapid deployment and public cloud portability.
+> Windows Hyper-V containers:  not open source, but compatible with open-sourced solutions and offer higher levels of isolation and portability.
+> Kubernetes: open-source container management runtime environment used to automate deployment, scaling, and management. The platform has a considerable following and is used by well-known companies like eBay, Pokemon GO, Yahoo, and Zulily.
