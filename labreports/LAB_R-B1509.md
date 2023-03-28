@@ -28,6 +28,6 @@ ___
 2. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
 > It tests the publication before deployment.
 3. Why would you use a container technology over a virtual machine(VM)?
-> It's faster than VM. VM involves swapping RAM from the Harddrive in a separate OS/Drive, which is slower in process but tricks the computer into believing there is more memory than physical. Container allows for the memory used in the Harddrive without needing to swap from another "virtual" drive that still relies on it.
+> It's faster than VM. VM involves swapping RAM from the Harddrive in a separate OS/Drive, which is slower in process but tricks the computer into believing there is more memory than physical. Container allows for the memory used in the Harddrive without needing to swap from another "virtual" drive that still relies on it. It also won't take up so much RAM because it's using another OS.
 4. What are some alternatives to Docker for containerized deployments?
 > Respond here...
