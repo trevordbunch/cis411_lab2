@@ -1,0 +1,41 @@
+# Lab Report: UX/UI
+___
+**Course:** CIS 411, Spring 2021  
+**Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
+**Name:** Wade Buhr  
+**GitHub Handle:** wadebuhr  
+**Repository:**  https://github.com/wadebuhr/cis411_lab4_CD/blob/purelab/
+**Collaborators:** None
+___
+
+# Required Content
+
+- [ X] Generate a markdown file in the labreports directory named LAB_[GITHUB HANDLE].md. Write your lab report there.
+- [ X] Create the directory ```./circleci``` and the file ```.circleci/config.yml``` in your project and push that change to your GitHub repository.
+- [ x] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
+- [ ] Write the URL of your app hosted on Heroku or other Cloud Provider here:  
+> [Link to my digital tree app](https://cloud.digitalocean.com/projects/f5a6b8c8-63b6-4c51-bc7c-37dedffc93c3/resources?i=95084e)
+- [ x] Embed _using markdown_ a screenshot of your successful deployed application to Heroku.  
+> Example: ![Unsuccessful Build](badbuild.png)
+
+Everything was working until the deployment phase. I kept getting "exec format error" and when I further researched it, I learned it was a mac problem and I tried to implment a solution by updating the Dockerfile, but I got no success. 
+- [ x] Embed _using markdown_ a screenshot of your successful build and deployment to Heroku of your project (with the circleci interface).  
+> Example: ![Successful Build](circleci.png)
+- [ x] Answer the **4** questions below.
+- [x ] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
+
+## Questions
+1. Why would a containerized version of an application be beneficial if you can run the application locally already?
+> A containerized version of an application does not depend on the host OS making it portable and able to run smoothly across any platform. The lightweight feature of containers means higher server efficiencies and also means less time to start becuase there is no OS to boot. Container technology also means a greater sense of scalability. This environment means that someone could add new features, updates, and functions without affecting the original applicaitons. 
+1. If we have the ability to publish directory to Heroku, why involve a CI solution like CircleCI? What benefit does it provide?
+> Heroku is great for deployment, however the CircleCI means adding another auotmation process to the mix. Whenever you push a commit, CircleCI will run integrate that commit with the existing application and checks if it passes or not. If your commits pass, then CircleCI will pass on the code to Heroku to deploy it. 
+1. Why would you use a container technology over a virtual machine(VM)?
+> Container technologies run natively on an OS. Containers also require fewere IT resources to deploy, run and manage. Since containers don't use hypervisors, they are much faster and load in milliseconds compared to virtual machines. A single system can also hold many containers comparedd to virtual machines that take up storage for each one you incorporate. Overall containers offer flexibility and portability that is needed in cloud based technology. 
+1. What are some alternatives to Docker for containerized deployments?
+> Kubernetes is widely used by different compaines. Kubernetes excells at hosting cloud native applications that need rapid scaling.  
+>  
+> LXC (Linux) is a low-level container management tool and the predecessor of docker. Its goal was to offer a virtual machine type feel without the overhead of running its own kernel. 
+>   
+> RKT has become one of the most viable options other than docker, beacuase of its security and its ability to communicate effectively with the end users.   
+> 
+> Containerd is a standalone container runtime application, and it focuses on simplicity and portability. Because it is low level, you don't have to worry about complexity and offers great performance. 
