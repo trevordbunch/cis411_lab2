@@ -53,9 +53,9 @@ workflows:
   lab4-CICD-pipeline:
     jobs:
       -test
-      - build-and-push
+      - build-and-push:
           requires:
-          -test
+            -test
       - deploy:
           requires:
             - build-and-push
