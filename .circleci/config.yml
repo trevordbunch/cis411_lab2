@@ -52,11 +52,13 @@ jobs:
 workflows:
   lab4-CICD-pipeline:
     jobs:
+      -test
       - build-and-push:
           requires:
+          -test
       - deploy:
           requires:
             - build-and-push
           filters:
             branches:
-              only: purelab
+              only: main
