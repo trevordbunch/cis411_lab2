@@ -47,8 +47,8 @@ jobs:
           name: Authenticate with DigitalOcean
           command: |
             doctl auth init --access-token $OCEAN_API_KEY
-            doctl kubernetes cluster kubeconfig save mycluster
-            kubectl config use-context do-myapp
+            doctl kubernetes cluster kubeconfig save first-project
+            kubectl config use-context do-hammerhead-app
       - run:
           name: Deploy to DigitalOcean
           command: |
