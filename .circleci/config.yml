@@ -22,3 +22,43 @@ jobs:
         
       # run tests!
       - run: yarn test
+
+  build-and-push:
+    executor: docker/docker
+    steps:
+      - setup_remote_docker
+      - checkout
+      - docker/check
+      - docker/build:
+          image: ${DOCKER_LOGIN}/lab4
+          tag: latest
+      - docker/push:
+          digest-path: /tmp/digest.txt
+          image: ${DOCKER_LOGIN}/lab4
+          tag: latest
+  
+  deploy:
+    machine:
+      enabled: true
+    steps:
+      - checkout
+      - run: 
+          name: Connect and deploy through SSH
+          no_output_timeout: 30s
+          command: ssh -o "StrictHostKeyChecking no" ec2-user@${AWS_DOMAIN} "
+              sudo service docker start;
+              bash script.sh;"
+
+workflows:
+  lab4-CICD-pipeline:
+    jobs:
+      - test
+      - build-and-push:
+          requires:
+            - test
+      - deploy:
+          requires:
+            - build-and-push
+          filters:
+            branches:
+              only: purelab
