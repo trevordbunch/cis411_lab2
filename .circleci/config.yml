@@ -52,10 +52,10 @@ jobs:
 workflows:
   lab4-CICD-pipeline:
     jobs:
-      - test
+      - yarn test
       - build-and-push:
           requires:
-            - test
+            - yarn test
       - deploy:
           requires:
             - build-and-push
