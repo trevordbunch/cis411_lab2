@@ -22,6 +22,10 @@ ___
 - [X] Answer the **4** questions below.
 - [X] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
 
+- Fixed Build:
+![Successful Build](../assets/images/img_4.png)
+- Not sure how I managed to use workflow but here is the build-deploy success
+
 ## Questions
 1. Why would a containerized version of an application be beneficial if you can run the application locally already?
 > Containerizing an application offers several advantages over hosting it locally, such as portability, consistency, scalability, and security. Containers provide a self-contained environment that can be easily moved and scaled across various platforms and environments, making them perfect for modern cloud-native applications.
