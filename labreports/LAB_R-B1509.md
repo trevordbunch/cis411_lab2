@@ -13,13 +13,13 @@ ___
 - [x] Generate a markdown file in the labreports directory named LAB_[GITHUB HANDLE].md. Write your lab report there.
 - [x] Create the directory ```./circleci``` and the file ```.circleci/config.yml``` in your project and push that change to your GitHub repository.
 - [x] Create the file ```Dockerfile``` in the root of your project and include the contents of the file as described in the instructions. Push that change to your GitHub repository.
-- [ ] Write the URL of your app hosted on Heroku or other Cloud Provider here:  
+- [x] Write the URL of your app hosted on Heroku or other Cloud Provider here:  
 > Example:  ![URL](http://cis411lab4r09.azurewebsites.net/graphq)
-- [ ] Embed _using markdown_ a screenshot of your successful deployed application to Azure.  
+- [x] Embed _using markdown_ a screenshot of your successful deployed application to Azure.  
 > Example: ![Azure](/cis411_lab4_CD/assets/cislab411azMu.png)
-- [ ] Embed _using markdown_ a screenshot of your successful build and deployment to Azure of your project (with the circleci interface).  
+- [x] Embed _using markdown_ a screenshot of your successful build and deployment to Azure of your project (with the circleci interface).  
 > Example: ![CircleCI](/cis411_lab4_CD/assets/cislab411ccDeployment.png)
-- [ ] Answer the **4** questions below.
+- [x] Answer the **4** questions below.
 - [ ] Submit a Pull Request to cis411_lab4_CD and provide the URL of that Pull Request in Canvas as your URL submission.
 
 ## Questions
