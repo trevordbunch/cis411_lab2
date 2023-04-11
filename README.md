@@ -20,7 +20,7 @@ Here are the Detailed instructions for executing this lab using:
 - [Digital Ocean](LAB_INSTRUCTIONS_DigitalOcean.md)  
 - [Amazon Web Services](LAB_INSTRUCTIONS_AWS.md)
 
-You are expected to compile your findings into a lab report following this [template](labreports/LAB_TEMPLATE.md).
+You are expected to compile your findings into a lab report following this [template](labreports/LAB_Template.md).
 
 You are welcome to complete this lab using any Cloud Provider (AWS, Google Cloud, Azure, etc.).  If you choose this path - then I encourage you to consider the extra credit opportunity below.
 
