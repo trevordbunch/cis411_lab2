@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "GitHub and CircleCI building a simple GraphQL service",
   "engines": {
-    "node": "11.x",
-    "npm": "6.4.1"
+    "node": "12.x"
   },
   "main": "server.js",
   "scripts": {
